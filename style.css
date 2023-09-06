@@ -1,0 +1,432 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+}
+
+#page1 {
+    /* background-color: blue; */
+    position: relative;
+}
+
+#page1 > img {
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+#nav-bar {
+    position: relative;
+    z-index: 1;
+    /* background-color: yellow; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-bar > input {
+    text-transform: uppercase;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+#nav-bar > i {
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+    right: 130px;
+}
+
+#centre-nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#centre-nav > a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none
+}
+
+#page1 > #text {
+    /* background-color: blue; */
+    position: relative;
+    height: 70%;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#page1 > #text > h5 {
+   font-size: 18px;
+   transform: rotate(-20deg);
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   color: #8873EF;
+}
+
+#page1 > #text > h1 {
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+#page1 > #text > p {
+    position: absolute;
+    top: 50%;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#page1 > #text > #button {
+    /* background-color: green; */
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#page1 > #text > #button > #button1 {
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8873EF;
+}
+
+#page1 > #text > #button > #button2 {
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#page1 > #text > #button > #button1 > i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#page1 > #text > #button > #button2 > i {
+    font-size: 20px;
+    margin-left: 10px;
+}   
+
+#page2 {
+    background-color: #FCDA69;
+    position: relative;
+}
+
+#page2 > #div-one {
+    height: 50%;
+    width: 40%;
+    /* background-color: rgb(102, 255, 0); */
+    position: relative;
+}
+
+#page2 > #div-one > h5 {
+    font-size: 15px;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 8%;
+    left: 6%;
+    color: #8873EF;
+}
+
+#page2 > #div-one > h1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 60px;
+    /* margin-left: 30px; */
+    
+}
+
+#page2 > #div-one > p {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+
+#page2 > #div-two {
+    height: 40%;
+    width: 40%;
+    /* background-color: green; */
+    position: absolute;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 > #div-three {
+    /* background-color: green; */
+    height: 90%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+#page2 > #div-three > .sub-div {
+    height: 25%;
+    width: 100%;
+    border-top: 2px solid black;
+
+}
+
+
+
+#page2 > #div-three > .sub-div {
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    height: 60px;
+    width: 60px;
+    background-color: #8873EF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.circle > i {
+    font-size: 40px;
+    color: white;
+}
+
+#page3 {
+    position: relative;
+}
+#page3 > #text3 {
+    /* background-color: rgb(209, 17, 17); */
+    height: 50%;
+    width: 33%;
+    position: relative;
+}
+
+#page3 > #text3 > h5 {
+    font-size: 15px;
+    color: #8873EF;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: rotate(-20deg);
+}
+
+#page3 > #text3 > h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.text4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page3 > #cards {
+    height: 50%;
+    width: 100%;
+    /* background-color: green; */
+    position: absolute;
+    top: 50%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+#page3 > #cards > .card {
+    height: 100%;
+    width: 30%;
+    border-top: 3px solid black;
+}
+
+
+#page3  .card > .image {
+    padding-top: 12px;
+}
+
+#page3 > #cards > #card1 {
+    transform: translateY(0);
+}
+
+#page3 > #cards > #card2 
+{
+    transform: translateY(-50px);
+}
+
+#page3 > #cards > #card3
+{
+    transform: translateY(-100px);
+} 
+
+
+#page4 {
+    background-color: #FCDA69;
+}
+
+
+#page4 > #text5 {
+    /* background-color: greenyellow; */
+    height: 50%;
+    width: 40%;
+    position: relative;
+}
+
+#page4 > #text5 > h5 {
+    color: #8873EF;
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    transform: rotate(-20deg);
+}
+
+#page4 > #text5 > h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+#page4 > #feature {
+    height: 50%;
+    width: 35%;
+    /* background-color: blue; */
+    position: relative;
+    margin-left: 90px;
+}
+
+#page4 > #feature .sub-div {
+    height: 30%;
+    width: 100%;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+
+.sub-div-circle {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+}
+
+.sub-div-circle > i {
+    font-size: 20px; 
+}
+
+#page4 > #feature .sub-div > h3 {
+    font-size: 25px;
+}
+
+/* #page4 > #circle-div {
+    height: 50%;
+    width: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+} */
+
+
+#testnew {
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    position: absolute;
+    right: 0px
+}
+
+#testnew > #main-circle {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+}
+
+#testnew > #main-circle > #line {
+    height: 40px;
+    width: 400px;
+    /* background-color: green; */
+    position: absolute;
+    top: 41%;
+    left: 30px;
+    border-bottom: 3px solid black;
+    transform-origin: left;
+    transform: rotate(15deg);
+}
+
+#testnew > #main-circle > #small-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #8873EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    top: 40%;
+}
+
+#testnew > #main-circle > #small-circle > i {
+    color: white;
+    font-size: 90px;
+}
+
+#testnew > #main-circle > #text 
+{
+    width: fit-content;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 40%;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
